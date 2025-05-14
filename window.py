@@ -23,3 +23,6 @@ class Window:
     
     def canvas(self):
         return self.__canvas
+    
+    def draw_line(self,line,fill_color):
+        line.draw(self.__canvas, fill_color)
